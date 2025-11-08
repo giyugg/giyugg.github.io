@@ -74,6 +74,12 @@ section {
     display: flex;
     align-items: center;
     gap: 5rem;
+    justify-content: center; /* note to self: remove this also after new development comes */
+}
+
+/* note to self: i will remove this or just ignore this on development lol. peace! */
+.home-detail {
+    text-align: center;
 }
 
 .home-detail h1 {
