@@ -351,7 +351,23 @@ section.active {
     color: var(--main-color);  
 }
 
+.resume-detail {
+    display: none;
+}
+
+.resume-detail.active {
+    display: block;
+}
+
 .resume-box .heading {
     font-size: 3.5rem;
     text-align: left;
+}
+
+.resume-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    height: 45rem;
+    overflow: auto;
 }
